@@ -133,7 +133,7 @@ client.on('messageCreate', async (message) => {
     } else if (wenLambo.test(message.content)) {
       await message.reply(pickLambo())
     } else if (wenToken.test(message.content)) {
-      await message.reply("It' live!!! Check #announcements channel")
+      await message.reply("vCOW is a non-transferable governance token. CowDAO might vote to make it swapable via governance vote.\nWen? After airdrop is complete\nWen? 6 weeks after initial deployment\nWen? Aprox. March 25th")
     } else if (contractAddress.test(message.content)) {
       await message.reply(
         'vCOW contract addresses:\n-Mainnet: https://etherscan.io/address/0xd057b63f5e69cf1b929b356b579cba08d7688048\n-Gnosis Chain: https://blockscout.com/xdai/mainnet/token/0xc20C9C13E853fc64d054b73fF21d3636B2d97eaB',
